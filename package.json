@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.0",
@@ -21,5 +23,9 @@
     "react-icons": "^4.2.0",
     "web3modal": "^1.9.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.0"
+  }
 }
