@@ -39,6 +39,9 @@ export default function CallToActionWithAnnotation() {
           <Text color={'gray.500'} fontSize="2xl">
             Use this NextJS Truffle Starter with basic wallet connectivity feature using web3modal to get a headstart on your development.
           </Text>
+          <Text color={'gray.600'} fontSize="2xl">
+            Note: It takes a few seconds for Connect Wallet button to load          
+          </Text>
           <Stack
             direction={'column'}
             spacing={3}
